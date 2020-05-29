@@ -5,7 +5,7 @@ ft_ls is a [42-network](https://www.codam.nl/en/the-42-network) project which in
 Run ```make```, an executable called ```ft_ls``` should compile directly. Please submit an issue if you run into any.
 
 ## How to use?
-After creating the executable file, ft_ls like this:
+After creating the executable file, ft_ls can be used like this:
 
 ```./ft_ls [OPTIONS] [FILES]```
 
