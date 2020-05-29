@@ -5,12 +5,16 @@ ft_ls is a [42-network](https://www.codam.nl/en/the-42-network) project which in
 Run ```make```, an executable called ```ft_ls``` should compile directly. Please submit an issue if you run into any.
 
 ## Options
-- -a
-
-  do not ignore entries starting with .
-- -d
-
-  list directories themselves, not their contents
+- -a: do not ignore entries starting with .
+- -d: list directories themselves, not their contents
+- -f: do not sort
+- -g: like -l, but do not list owner
+- -l: use a long listing format
+- -m: fill width with a comma seperated list of entries
+- -r: reverse order while sorting
+- -R: list subdirectories recursively
+- -t: sort by time, newest first
+- -T: assume tab stops at each COLS instead of 8
 
 ## Specifications
 Apart from finding the smallest possible square to fit all Tetrimino's, another requirement is that the algorithm must place all Tetriminos as far as possible in the top-left corner. Tetriminos at the beginning of the given list have precedence over the Tetrimino's that come later in the list.
