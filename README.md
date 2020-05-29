@@ -1,46 +1,14 @@
-# fillit
-Fillit is a [42-network](https://www.codam.nl/en/the-42-network) project which involves discovering and getting acquainted with a recurrent problem in programming: the search of an optimal solution among a very large number of possibilities in a reasonable amount of time. The purpose of this project is to take a file containing a list of tetriminos to sort them in the smallest square possible.
-The program takes a file containing a list of Tetrimino's as parameter and prints the square with tetriminos to the standard output.
+# ft_ls
+ft_ls is a [42-network](https://www.codam.nl/en/the-42-network) project which involves recreating the ```ls``` command which is a command-line utility that lists the content of one or more directories on the standard output. The ```ls``` command supports a variety of options and a bunch of them are present in this project as well. The ```ls``` command is one of the first commands you learn as a beginner programmer. 
 
 ## Compiling
-Run ```make```, an executable called ```fillit``` should compile directly. Please submit an issue if you run into any.
+Run ```make```, an executable called ```ft_ls``` should compile directly. Please submit an issue if you run into any.
 
-## Tetriminos
-<img src="images/Tetriminos.png" width="300"></img>
-
-A Tetrimino is a 4-blocks geometric figure you probably already heard of, thanks to the popular game Tetris. The ```tetriminos``` folder contains three example files with Tetrimino's. The Tetrimino's are represented like this:
-```
-cat tetriminos/list1
-###.
-..#.
-....
-....
-
-....
-.###
-..#.
-....
-
-....
-....
-####
-....
-
-```
-
-## How to use?
-After creating the executable file, ```fillit``` can be executed by giving it a Tetrimino-file as parameter e.g.:
-
-```./fillit tetriminos/list1```
-
-In this case, the output looks like shown below. Note that to differentiate the Tetrimino's, all of them are assigned a uppercase letter starting with 'A'.
-
-```
-.AAA
-BBBA
-.B..
-CCCC
-```
+## Options
+- -a
+  do not ignore entries starting with .
+- -d
+  list directories themselves, not their contents
 
 ## Specifications
 Apart from finding the smallest possible square to fit all Tetrimino's, another requirement is that the algorithm must place all Tetriminos as far as possible in the top-left corner. Tetriminos at the beginning of the given list have precedence over the Tetrimino's that come later in the list.
