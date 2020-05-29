@@ -4,6 +4,13 @@ ft_ls is a [42-network](https://www.codam.nl/en/the-42-network) project which in
 ## Compiling
 Run ```make```, an executable called ```ft_ls``` should compile directly. Please submit an issue if you run into any.
 
+## How to use?
+After creating the executable file, ft_ls like this:
+
+```./ft_ls [OPTIONS] [FILES]```
+
+It is not obligatory to specify an option or a file. If no file is specified ```ft_ls``` lists the current directory.
+
 ## Options
 - **-a**: do not ignore entries starting with .
 - **-d**: list directories themselves, not their contents
