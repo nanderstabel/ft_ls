@@ -6,8 +6,10 @@ Run ```make```, an executable called ```ft_ls``` should compile directly. Please
 
 ## Options
 - -a
+
   do not ignore entries starting with .
 - -d
+
   list directories themselves, not their contents
 
 ## Specifications
