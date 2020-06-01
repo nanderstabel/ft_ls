@@ -23,12 +23,13 @@ It is not obligatory to specify an option or a file. If no file is specified ```
 - **-t**: sort by time, newest first
 - **-T**: assume tab stops at each COLS instead of 8
 
+## Challange
+Allowed functions for the mandatory part are ```write```, ```opendir```, ```readdir```, ```closedir```, ```stat```, ```lstat```, ```getpwuid```, ```getgrgid```, ```listxattr```, ```getxattr```, ```time```, ```ctime```, ```readlink```, ```malloc```, ```free```, ```perror```, ```strerror``` and ```exit```. Everything else is forbidden. Other functions can be used for bonus, but their use must be justified.
+
 ## Takeaways
-- A solid way of input input validation is very important to prevent your program to make unexpected errors when it is given invalid input.
-- During this project I learned about the concept of time complexity, and that it is important to know that different algorithms can have different time complexities. To choose the most suitable algorithm, it is important to think about what you want your program to accomplish. Do you want to make it work only for a small amount of information? Then bruteforcing is almost always a sufficiënt solution. However if your program needs to work fast for a lot of data, then you should probably look into more efficiënt algorithms.
-- Recursion can be a confusing concept for a beginner programmer, but during this project I got a lot more acquainted with recursive thinking and how it can benefit your program. When used in the right way it can be a very elegant method that can offer a lot of creative solutions.
-- One of my learning objectives was to become more confident in using pointers, and I learned how useful they are.
-- I also wanted to practice with using structs, and just like learning to use pointers during this project I found out how useful structs are to make information accessible throughout the whole of your program.
+- Because of the many functions I was unfamiliar with before starting this project I had to practice with them. There is nothing wrong with practicing ofcourse, but the result was that some parts of my program became quite messy and I had to rewrite the code a couple of times. This made me realize the importance of planning ahead and of working in a structured way.
+- During this project I have gotten a better understanding of allocating and free-ing memory.
+- I got familiar with working with the operating systems API's.
 
 ## Sources
 - [ls man-page](https://www.man7.org/linux/man-pages/man1/ls.1.html)
