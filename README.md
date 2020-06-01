@@ -1,6 +1,8 @@
 # ft_ls
 ft_ls is a [42-network](https://www.codam.nl/en/the-42-network) project which involves recreating the ```ls``` command which is a command-line utility that lists the content of one or more directories on the standard output. The ```ls``` command supports a variety of options and a bunch of them are present in this project as well. The ```ls``` command is one of the first commands you learn as a beginner programmer. 
 
+For more information about this project, see [ft_ls.en.pdf](https://github.com/nanderstabel/ft_ls/blob/master/ft_ls.en.pdf).
+
 ## Compiling
 Run ```make```, an executable called ```ft_ls``` should compile directly. Please submit an issue if you run into any.
 
